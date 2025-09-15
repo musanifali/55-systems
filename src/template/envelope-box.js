@@ -3,14 +3,14 @@ import { Col, Container, Row } from 'react-bootstrap';
 import EnvelopeForm from '../form/envelope-form/envelope-form';
 
 const HeadOffice = [
-  { id: 1, item: '6580 Allison Turnpike Creminfort, AL 32808-4509' },
+  { id: 1, item: '293-MB 4th Floor Phase -6, DHA LAHORE' },
   { id: 2, item: '+(704) 279-1249', icon: 'fas fa-phone-volume' },
   { id: 3, item: '+(012) 456-7890', icon: 'fab fa-whatsapp' },
   { id: 4, item: 'letstalk@hisoft.com', icon: 'far fa-envelope' },
 ];
 
 const BranchOffice = [
-  { id: 1, item: '214 West Arnold St. New York, NY 10002' },
+  { id: 1, item: '293-MB 4th Floor Phase -6, DHA LAHORE' },
   { id: 2, item: '+(124) 442-1465', icon: 'fas fa-phone-volume' },
   { id: 3, item: ' +(000) 145-4445', icon: 'fab fa-whatsapp' },
   { id: 4, item: 'letstalk@hisoft.com', icon: 'far fa-envelope' },

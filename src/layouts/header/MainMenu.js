@@ -31,26 +31,9 @@ function MainMenu() {
   return (
     <>
       <ul className="main-navbar">
-        {/* Home */}
-        <li
-          key="0"
-          className={`has-dropdown ${
-            activeItems.includes(0) ? 'menu-active' : ''
-          }`}
-        >
-          <Link to="#">
-            Home{' '}
-            {showLink && (
-              <span onClick={() => toggleItem(0)} className="submenu-trigger">
-                <i className="fa-solid fa-angle-down"></i>
-              </span>
-            )}
-          </Link>
-          <ul className="submenu">
-            <li key="hom-8">
-              <NavLink to="/">Home New Delhi</NavLink>
-            </li>
-          </ul>
+        {/* Home - simple link, no dropdown */}
+        <li key="home">
+          <NavLink to="/">Home</NavLink>
         </li>
 
         {/* Pages */}

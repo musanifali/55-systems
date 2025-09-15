@@ -19,8 +19,7 @@ function TopBar(props) {
               </li>
               <li>
                 <Link to="/contact">
-                  <i className="fas fa-map-marker-alt"></i>6580 Allison Turnpike
-                  Creminfort, AL 32808
+                  <i className="fas fa-map-marker-alt"></i>293-MB 4th Floor Phase -6, DHA LAHORE
                 </Link>
               </li>
             </ul>

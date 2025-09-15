@@ -23,7 +23,7 @@ function ContactInfo(props) {
               : props.theme === 'contact-info-style-02' && (
                   <label>Address :</label>
                 )}
-            <span>6580 Allison Turnpike Creminfort, AL 32808</span>
+            <span>293-MB 4th Floor Phase -6, DHA LAHORE</span>
           </li>
           <li key="item2">
             {props.theme === 'contact-info-style-01' && (

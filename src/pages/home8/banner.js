@@ -25,6 +25,9 @@ const Social = [
   },
 ];
 
+// Use the provided primary hero image (800x873)
+const HERO_IMAGE = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/banner-img5.62c2d41908482577a2d2.webp';
+
 function Banner() {
   return (
     <>
@@ -36,7 +39,7 @@ function Banner() {
               lg={6}
               className="offset-lg-1 d-none d-lg-block order-md-2"
             >
-              <img src="https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/banner-img5.62c2d41908482577a2d2.webp" alt="Banner" />
+              <img src={HERO_IMAGE} alt="Banner" />
             </Col>
             <Col sm={12} lg={5} className="order-md-1 py-5">
               <h1 className="text-white pt-4">Live, Work, Create…</h1>

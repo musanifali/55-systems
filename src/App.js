@@ -13,6 +13,7 @@ const BackTop = React.lazy(() => import('./component/back-top'));
 
 // Home (use only Home New Delhi)
 const Home8 = React.lazy(() => import('./pages/home8/index'));
+// Note: All other home pages are intentionally not imported to avoid exposing routes.
 const Blog = React.lazy(() => import('./pages/blog/Blog'));
 const BlogGrid = React.lazy(() => import('./pages/blog/blog-grid'));
 const BlogSingle = React.lazy(() => import('./pages/blog/blog-details'));
@@ -84,6 +85,7 @@ function App() {
           <Route path="/" element={<Header1 />}>
             {/* Home: Only New Delhi */}
             <Route index element={<Home8 />} />
+            {/** Other home routes removed */}
             {/* Pages */}
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/pricing" element={<Pricing />} />
