@@ -25,19 +25,6 @@ function ContactInfo(props) {
                 )}
             <span>293-MB 4th Floor Phase -6, DHA LAHORE</span>
           </li>
-          <li key="item2">
-            {props.theme === 'contact-info-style-01' && (
-              <i className="fab fa-whatsapp"></i>
-            )}
-            {props.theme === 'contact-info-style-02' && props.label
-              ? null
-              : props.theme === 'contact-info-style-02' && (
-                  <label>Phone :</label>
-                )}
-            <Link to="/contact" className="phone-number">
-              +(704) 279-1249
-            </Link>
-          </li>
           <li key="item3">
             {props.theme === 'contact-info-style-01' && (
               <i className="far fa-envelope"></i>
@@ -48,15 +35,6 @@ function ContactInfo(props) {
                   <label>Email :</label>
                 )}
             <Link to="mailto:letstalk@55systems.com">letstalk@55systems.com</Link>
-          </li>
-          <li key="item4">
-            {props.theme === 'contact-info-style-01' && (
-              <i className="fa fa-fax"></i>
-            )}
-            {props.theme === 'contact-info-style-02' && props.label
-              ? null
-              : props.theme === 'contact-info-style-02' && <label>Fax :</label>}
-            <Link to="/contact">+00 12345678</Link>
           </li>
         </ul>
       </div>

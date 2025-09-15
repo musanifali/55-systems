@@ -31,9 +31,6 @@ function ECommerceSolution() {
               <span>05</span>Six months FREE support for bugs
             </li>
           </ul>
-          <h6>
-            Package start from <b className="text-primary font-xll">$600</b>
-          </h6>
         </Col>
         <Col lg={3} md={12} className="text-center mt-4 mt-lg-0">
           <div className="bg-light h-100 p-4">

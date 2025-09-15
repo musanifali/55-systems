@@ -35,11 +35,6 @@ function ContactFormInfo() {
                 <p className="mt-4 mt-lg-5 mb-4">
                   17504 Carlton Cuevas Rd, <br /> Gulfport, MS, 39503
                 </p>
-                <h4 className="mb-4 fw-bold">
-                  <Link to="/contact" className="color-inherit">
-                    +(704) 279-1249
-                  </Link>
-                </h4>
                 <Link className="text-dark" to="/mailto:letstalk@55systems.com">
                   letstalk@55systems.com
                 </Link>
