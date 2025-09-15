@@ -4,32 +4,15 @@ import Loader from './component/loader';
 
 // All Headers
 const Header1 = React.lazy(() => import('./layouts/header/Header1'));
-const Header2 = React.lazy(() => import('./layouts/header/header2'));
-const Header3 = React.lazy(() => import('./layouts/header/header3'));
 
 // All Footers
 const FooterStyle01 = React.lazy(() =>
   import('./layouts/footer/footer-style-01')
 );
-const FooterStyle02 = React.lazy(() =>
-  import('./layouts/footer/footer-style-02')
-);
-const FooterStyle03 = React.lazy(() =>
-  import('./layouts/footer/footer-style-03')
-);
 const BackTop = React.lazy(() => import('./component/back-top'));
 
-// Home
-const HomeIndex = React.lazy(() => import('./pages/home1/index'));
-const Home2 = React.lazy(() => import('./pages/home2/index'));
-const Home3 = React.lazy(() => import('./pages/home3/index'));
-const Home4 = React.lazy(() => import('./pages/home4/index'));
-const Home5 = React.lazy(() => import('./pages/home5/index'));
-const Home6 = React.lazy(() => import('./pages/home6/index'));
-const Home7 = React.lazy(() => import('./pages/home7/index'));
+// Home (use only Home New Delhi)
 const Home8 = React.lazy(() => import('./pages/home8/index'));
-const Home9 = React.lazy(() => import('./pages/home9/index'));
-const Home10 = React.lazy(() => import('./pages/home10/index'));
 const Blog = React.lazy(() => import('./pages/blog/Blog'));
 const BlogGrid = React.lazy(() => import('./pages/blog/blog-grid'));
 const BlogSingle = React.lazy(() => import('./pages/blog/blog-details'));
@@ -99,17 +82,8 @@ function App() {
       <div className="main-wrapper">
         <Routes>
           <Route path="/" element={<Header1 />}>
-            {/* Home */}
-            <Route index path="/" element={<HomeIndex />} />
-            <Route path="/home-2" element={<Home2 />} />
-            <Route path="/home-3" element={<Home3 />} />
-            <Route path="/home-4" element={<Home4 />} />
-            <Route path="/home-5" element={<Home5 />} />
-            <Route path="/home-6" element={<Home6 />} />
-            <Route path="/home-7" element={<Home7 />} />
-            <Route path="/home-8" element={<Home8 />} />
-            <Route path="/home-9" element={<Home9 />} />
-            <Route path="/home-10" element={<Home10 />} />
+            {/* Home: Only New Delhi */}
+            <Route index element={<Home8 />} />
             {/* Pages */}
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/pricing" element={<Pricing />} />
@@ -202,30 +176,12 @@ function App() {
 
           {/* Coming Soon Page */}
           <Route path="/coming-soon" element={<ComingSoon />} />
-
-          {/* Header Style 2 */}
-          <Route path="/home-2" element={<Header2 />}>
-            <Route path="/home-2" element={<Home2 />} />
-          </Route>
-
-          {/* Header Style 3 */}
-          <Route
-            path="/home-3"
-            element={<Header3 className="header-transprent" />}
-          >
-            <Route path="/home-3" element={<Home3 />} />
-          </Route>
         </Routes>
 
-        {/* All Footer */}
+        {/* Footer (Default) */}
         {hideFooter && (
           <Routes>
-            <Route path="/*" element={<FooterStyle01 />} />{' '}
-            {/* Footer Default */}
-            <Route path="/home-2" element={<FooterStyle02 />} />{' '}
-            {/* Footer Style 02 */}
-            <Route path="/home-3" element={<FooterStyle03 />} />{' '}
-            {/* Footer Style 03 */}
+            <Route path="/*" element={<FooterStyle01 />} />
           </Routes>
         )}
 

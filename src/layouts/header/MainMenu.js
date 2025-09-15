@@ -47,35 +47,8 @@ function MainMenu() {
             )}
           </Link>
           <ul className="submenu">
-            <li key="hom-1">
-              <NavLink to="/">Home Default</NavLink>
-            </li>
-            <li key="hom-2">
-              <NavLink to="/home-2">Home London</NavLink>
-            </li>
-            <li key="hom-3">
-              <NavLink to="/home-3">Home New York</NavLink>
-            </li>
-            <li key="hom-4">
-              <NavLink to="/home-4">Home Los Angeles</NavLink>
-            </li>
-            <li key="hom-5">
-              <NavLink to="/home-5">Home Mumbai</NavLink>
-            </li>
-            <li key="hom-6">
-              <NavLink to="/home-6">Home Shanghai</NavLink>
-            </li>
-            <li key="hom-7">
-              <NavLink to="/home-7">Home Chicago</NavLink>
-            </li>
             <li key="hom-8">
-              <NavLink to="/home-8">Home New Delhi</NavLink>
-            </li>
-            <li key="hom-9">
-              <NavLink to="/home-9">Home Berlin</NavLink>
-            </li>
-            <li key="hom-10">
-              <NavLink to="/home-10">Home Paris</NavLink>
+              <NavLink to="/">Home New Delhi</NavLink>
             </li>
           </ul>
         </li>
