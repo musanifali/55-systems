@@ -1,0 +1,27 @@
+@import '../../assets/scss/variable.scss';
+
+.expertise-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  padding-top: 50px;
+  text-align: center;
+  border-radius: $radius-5;
+  height: 100%;
+}
+
+.expertise-item .expertise-list ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.expertise-item .expertise-list ul li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.expertise-item .expertise-list ul li:last-child {
+  margin-right: 0px;
+}
