@@ -1,11 +1,12 @@
-const featureStepImg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
-const featureStepImg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img2.434fa424abdbbd0c4e59.webp';
 import featureStepImg3 from '../assets/images/services/services-img3.webp';
-const featureStepImg4 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img4.ff7e1cf66219f9f41f14.webp';
 import featureStepImg5 from '../assets/images/services/services-img5.webp';
-const featureStepImg6 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img6.e173499f280972e76558.webp';
 import featureStepImg7 from '../assets/images/services/services-img4.webp';
 import featureStepImg8 from '../assets/images/services/services-img2.webp';
+
+const featureStepImg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
+const featureStepImg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img2.434fa424abdbbd0c4e59.webp';
+const featureStepImg4 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img4.ff7e1cf66219f9f41f14.webp';
+const featureStepImg6 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img6.e173499f280972e76558.webp';
 
 const FeatureStepList = [
   {

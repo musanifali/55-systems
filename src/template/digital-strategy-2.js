@@ -1,8 +1,9 @@
 import Col from 'react-bootstrap/esm/Col';
 import Row from 'react-bootstrap/esm/Row';
-
-const DigitalImage = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
 import { Link } from 'react-router-dom';
+
+// External image URL constant
+const DigitalImage = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
 
 function DigitalStrategy2() {
   return (

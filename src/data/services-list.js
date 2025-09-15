@@ -1,8 +1,9 @@
+import servicesimg3 from '../assets/images/services/services-img3.webp';
+import servicesimg5 from '../assets/images/services/services-img5.webp';
+
 const servicesimg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
 const servicesimg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img2.434fa424abdbbd0c4e59.webp';
-import servicesimg3 from '../assets/images/services/services-img3.webp';
 const servicesimg4 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img4.ff7e1cf66219f9f41f14.webp';
-import servicesimg5 from '../assets/images/services/services-img5.webp';
 const servicesimg6 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img6.e173499f280972e76558.webp';
 
 const ServicesList = [
