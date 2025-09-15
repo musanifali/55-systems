@@ -49,8 +49,7 @@ function Banner() {
                 solution.
               </p>
               <div className="d-flex mt-5">
-                <h4>+(704) 279-1249</h4>
-                <ul className="list-unstyled social-list ms-4 ms-sm-5">
+                <ul className="list-unstyled social-list ms-0 ms-sm-0">
                   {Social.map((list, index) => (
                     <li key={index}>
                       <a className="text-white" href="#">

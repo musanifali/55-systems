@@ -51,15 +51,7 @@ const Header1 = (props) => {
                     <li className="d-none d-lg-block">
                       <SidePanel />
                     </li>
-                    <li key="0" className="d-none d-lg-block">
-                      <div className="header-call-info">
-                        <i className="icon fa-solid fa-phone"></i>
-                        <div className="call-info">
-                          <p>Have Any Questions? </p>
-                          <span>+(704) 279-1249</span>
-                        </div>
-                      </div>
-                    </li>
+                      
                   </ul>
                 </div>
                 <div className="mobile-menu-btn d-lg-none">

@@ -184,11 +184,7 @@ function Home4() {
                     title="letstalk@55systems.com"
                     icon="far fa-envelope-open"
                   />
-                  <InfoBox3
-                    bgStyle="dark  mb-3"
-                    title="+(704) 279-1249"
-                    icon="fas fa-phone-volume"
-                  />
+                  
 
                   <Googlemap
                     className="mt-5 mb-4 mb-lg-0"

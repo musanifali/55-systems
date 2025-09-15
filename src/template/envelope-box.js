@@ -4,7 +4,6 @@ import EnvelopeForm from '../form/envelope-form/envelope-form';
 
 const HeadOffice = [
   { id: 1, item: '293-MB 4th Floor Phase -6, DHA LAHORE' },
-  { id: 2, item: '+(704) 279-1249', icon: 'fas fa-phone-volume' },
   { id: 3, item: '+(012) 456-7890', icon: 'fab fa-whatsapp' },
   { id: 4, item: 'letstalk@55systems.com', icon: 'far fa-envelope' },
 ];

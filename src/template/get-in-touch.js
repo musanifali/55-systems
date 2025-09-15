@@ -8,11 +8,10 @@ import { Link } from 'react-router-dom';
 const HeadOffice = [
   {
     id: 1,
-    item: '214 West Arnold St. New York, NY 10002',
+    item: '293-MB 4th Floor Phase -6, DHA LAHORE',
     icon: 'fa-solid fa-location-dot',
   },
   { id: 2, item: ' letstalk@55systems.com', icon: 'fa-regular fa-envelope-open' },
-  { id: 3, item: '+(704) 279-1249', icon: 'fas fa-phone-volume' },
   { id: 4, item: 'live:55systems', icon: 'fa-brands fa-skype' },
 ];
 function GetInTouch(props) {

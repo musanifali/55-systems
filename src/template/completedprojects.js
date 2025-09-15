@@ -31,10 +31,7 @@ function CompletedProjects(props) {
             </Col>
             <Col lg={6}>
               <div className="p-sm-5 p-4 bg-light">
-                <h3>If you have any question, feel free to call us</h3>
-                <Link className="display-5 text-primary font-xll" to="#">
-                  +(704) 279-1249
-                </Link>
+                <h3>If you have any question, we are here to help</h3>
                 <p className="m-0 mt-2">Monday - Friday, 10:00 AM - 7:00 PM</p>
               </div>
             </Col>
