@@ -181,7 +181,7 @@ function Home4() {
                   />
                   <InfoBox3
                     bgStyle="dark mb-3"
-                    title="letstalk@hisoft.com"
+                    title="letstalk@55systems.com"
                     icon="far fa-envelope-open"
                   />
                   <InfoBox3

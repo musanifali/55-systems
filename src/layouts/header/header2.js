@@ -12,10 +12,10 @@ import Logo from '../../component/logo';
 import OffCanvasMenu from './OffcanvasMenu';
 import useHeaderSticky from '../../hooks/useHeaderSticky';
 import Search from '../../component/search';
+import SidePanel from '../../component/side-panel';
 
 // SCSS
 import './style.scss';
-import SidePanel from '../../component/side-panel';
 
 const Header2 = (props) => {
   // Header Sticky : Custom Hooks
@@ -61,7 +61,7 @@ const Header2 = (props) => {
                           <i className="flaticon-rocket"></i>
                           <span>
                             <label className="d-block">
-                              letstalk@hisoft.com
+                              letstalk@55systems.com
                             </label>
                             <label className="d-block">
                               Melbourne Australia

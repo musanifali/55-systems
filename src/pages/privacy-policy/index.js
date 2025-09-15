@@ -102,7 +102,7 @@ function PrivacyPolicy() {
                 Introspection is the trick. Understand what you want, why you
                 want it and what it will do for you. This is a critical factor,
                 and as such, is probably the most difficult step. For this
-                reason.<Link to="mailto:support@hisoft.com"> support@hisoft.com</Link>{' '}
+                reason.<Link to="mailto:support@55systems.com"> support@55systems.com</Link>{' '}
               </p>
               <ul className="list-unstyled">
                 <li className="mb-2">
@@ -131,7 +131,7 @@ function PrivacyPolicy() {
                 questions: What do I really want? What does success look like to
                 me? Why do I want a particular thing? How will this achievement
                 change my life? How can I use this success.
-                <Link to="mailto:support@hisoft.com"> support@hisoft.com</Link>
+                <Link to="mailto:support@55systems.com"> support@55systems.com</Link>
               </p>
             </Container>
           </section>

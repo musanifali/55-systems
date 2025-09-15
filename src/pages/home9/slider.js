@@ -52,7 +52,7 @@ function Slider() {
                     nonprofits & organizations grow their impact.
                   </p>
                   <div className="d-flex mt-5">
-                    <h4 className="text-primary">letstalk@hisoft.com</h4>
+                    <h4 className="text-primary">letstalk@55systems.com</h4>
                   </div>
                 </div>
               </Col>

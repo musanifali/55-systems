@@ -40,8 +40,8 @@ function ContactFormInfo() {
                     +(704) 279-1249
                   </Link>
                 </h4>
-                <Link className="text-dark" to="/mailto:letstalk@hisoft.com">
-                  letstalk@hisoft.com
+                <Link className="text-dark" to="/mailto:letstalk@55systems.com">
+                  letstalk@55systems.com
                 </Link>
                 <Link
                   to="/contact"

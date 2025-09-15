@@ -13,8 +13,8 @@ function TopBar(props) {
           <div className="topbar-inner">
             <ul className="top-info">
               <li>
-                <Link to="mailto:letstalk@hisoft.com">
-                  <i className="far fa-envelope"></i>letstalk@hisoft.com
+                <Link to="mailto:letstalk@55systems.com">
+                  <i className="far fa-envelope"></i>letstalk@55systems.com
                 </Link>
               </li>
               <li>

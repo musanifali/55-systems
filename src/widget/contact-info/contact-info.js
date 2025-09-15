@@ -47,7 +47,7 @@ function ContactInfo(props) {
               : props.theme === 'contact-info-style-02' && (
                   <label>Email :</label>
                 )}
-            <Link to="mailto:letstalk@hisoft.com">letstalk@hisoft.com</Link>
+            <Link to="mailto:letstalk@55systems.com">letstalk@55systems.com</Link>
           </li>
           <li key="item4">
             {props.theme === 'contact-info-style-01' && (

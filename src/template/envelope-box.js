@@ -6,14 +6,14 @@ const HeadOffice = [
   { id: 1, item: '293-MB 4th Floor Phase -6, DHA LAHORE' },
   { id: 2, item: '+(704) 279-1249', icon: 'fas fa-phone-volume' },
   { id: 3, item: '+(012) 456-7890', icon: 'fab fa-whatsapp' },
-  { id: 4, item: 'letstalk@hisoft.com', icon: 'far fa-envelope' },
+  { id: 4, item: 'letstalk@55systems.com', icon: 'far fa-envelope' },
 ];
 
 const BranchOffice = [
   { id: 1, item: '293-MB 4th Floor Phase -6, DHA LAHORE' },
   { id: 2, item: '+(124) 442-1465', icon: 'fas fa-phone-volume' },
   { id: 3, item: ' +(000) 145-4445', icon: 'fab fa-whatsapp' },
-  { id: 4, item: 'letstalk@hisoft.com', icon: 'far fa-envelope' },
+  { id: 4, item: 'letstalk@55systems.com', icon: 'far fa-envelope' },
 ];
 
 function EnvelopeBox(props) {

@@ -11,9 +11,9 @@ const HeadOffice = [
     item: '214 West Arnold St. New York, NY 10002',
     icon: 'fa-solid fa-location-dot',
   },
-  { id: 2, item: ' letstalk@hisoft.com', icon: 'fa-regular fa-envelope-open' },
+  { id: 2, item: ' letstalk@55systems.com', icon: 'fa-regular fa-envelope-open' },
   { id: 3, item: '+(704) 279-1249', icon: 'fas fa-phone-volume' },
-  { id: 4, item: 'live:hisoft', icon: 'fa-brands fa-skype' },
+  { id: 4, item: 'live:55systems', icon: 'fa-brands fa-skype' },
 ];
 function GetInTouch(props) {
   return (
