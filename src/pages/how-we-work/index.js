@@ -22,8 +22,9 @@ import ClientLogo from '../../component/client-logo';
 import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 
 // Site Data
-import AboutImg1 from '../../assets/images/about/10.webp';
-import AboutImg2 from '../../assets/images/about/11.webp';
+// External about images for how we work page
+const AboutImg1 = 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+const AboutImg2 = 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2344&q=80';
 import { AwardLogoList } from '../../data/client-logo-list';
 
 function HowWeWork() {

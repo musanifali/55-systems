@@ -1,10 +1,11 @@
-import caseStudyImg1 from '../assets/images/case-study/case-study-img1.webp';
-import caseStudyImg2 from '../assets/images/case-study/case-study-img2.webp';
-import caseStudyImg3 from '../assets/images/case-study/case-study-img3.webp';
-import caseStudyImg4 from '../assets/images/case-study/case-study-img4.webp';
-import caseStudyImg5 from '../assets/images/case-study/case-study-img5.webp';
-import caseStudyImg6 from '../assets/images/case-study/case-study-img6.webp';
-import caseStudyImg7 from '../assets/images/case-study/case-study-img7.webp';
+// External case study images
+const caseStudyImg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img1.dd8085fc405c33da00ff.webp';
+const caseStudyImg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img2.c86f9760ecde2c54ece1.webp';
+const caseStudyImg3 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img3.6733a1b26781d329ffa9.webp';
+const caseStudyImg4 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img4.7885f2eabef35458b378.webp';
+const caseStudyImg5 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img5.6733a1b26781d329ffa9.webp';
+const caseStudyImg6 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img6.7885f2eabef35458b378.webp';
+const caseStudyImg7 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img7.dd8085fc405c33da00ff.webp';
 
 const CaseStudyList = [
   {

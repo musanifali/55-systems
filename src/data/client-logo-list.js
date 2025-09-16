@@ -1,25 +1,28 @@
-import clientLogoImg1 from '../assets/images/client-logo/01.svg';
-import clientLogoImg2 from '../assets/images/client-logo/02.svg';
-import clientLogoImg3 from '../assets/images/client-logo/03.svg';
-import clientLogoImg4 from '../assets/images/client-logo/04.svg';
-import clientLogoImg5 from '../assets/images/client-logo/05.svg';
-import clientLogoImg6 from '../assets/images/client-logo/06.svg';
-import clientLogoImg7 from '../assets/images/client-logo/07.svg';
+// External client logo images (using logo placeholders from external sources)
+const clientLogoImg1 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+1';
+const clientLogoImg2 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+2';
+const clientLogoImg3 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+3';
+const clientLogoImg4 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+4';
+const clientLogoImg5 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+5';
+const clientLogoImg6 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+6';
+const clientLogoImg7 = 'https://via.placeholder.com/120x60/f8f9fa/6c757d?text=Client+7';
 
-import awardLogoImg1 from '../assets/images/award-logo/01.svg';
-import awardLogoImg2 from '../assets/images/award-logo/02.svg';
-import awardLogoImg3 from '../assets/images/award-logo/03.svg';
-import awardLogoImg4 from '../assets/images/award-logo/04.svg';
-import awardLogoImg5 from '../assets/images/award-logo/05.svg';
-import awardLogoImg6 from '../assets/images/award-logo/06.svg';
+// External award logo images
+const awardLogoImg1 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+1';
+const awardLogoImg2 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+2';
+const awardLogoImg3 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+3';
+const awardLogoImg4 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+4';
+const awardLogoImg5 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+5';
+const awardLogoImg6 = 'https://via.placeholder.com/100x80/28a745/ffffff?text=Award+6';
 
-import clientLogoLight1 from '../assets/images/client-logo/light/01.svg';
-import clientLogoLight2 from '../assets/images/client-logo/light/02.svg';
-import clientLogoLight3 from '../assets/images/client-logo/light/03.svg';
-import clientLogoLight4 from '../assets/images/client-logo/light/04.svg';
-import clientLogoLight5 from '../assets/images/client-logo/light/05.svg';
-import clientLogoLight6 from '../assets/images/client-logo/light/06.svg';
-import clientLogoLight7 from '../assets/images/client-logo/light/07.svg';
+// External light client logo images
+const clientLogoLight1 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+1';
+const clientLogoLight2 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+2';
+const clientLogoLight3 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+3';
+const clientLogoLight4 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+4';
+const clientLogoLight5 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+5';
+const clientLogoLight6 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+6';
+const clientLogoLight7 = 'https://via.placeholder.com/120x60/ffffff/333333?text=Client+7';
 
 const ClientLogoList = [
   { id: 1, imgSrc: clientLogoImg1 },

@@ -32,8 +32,9 @@ import VideoPopup from '../../component/video';
 import { CatData2 } from '../../data/category-box-list2';
 import TestimonialList from '../../data/testimonial-list';
 import CaseStudyList from '../../data/case-study-list';
-import videoImg from '../../assets/images/blog/blog-img1.webp';
-import PagaHeaderImg from '../../assets/images/page-header/industries-4.webp';
+// External images for industries-4
+const videoImg = 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80';
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
 
 function Industries4() {
   const listItems1 = [

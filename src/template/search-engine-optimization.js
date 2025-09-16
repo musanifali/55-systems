@@ -1,7 +1,8 @@
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 
-import TabImage from '../assets/images/about/08.webp';
+// External image for SEO section
+const TabImage = 'https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2174&q=80';
 
 function SearchEngineOptimization() {
   return (

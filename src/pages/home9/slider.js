@@ -11,8 +11,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Site Data
-import BannerImg1 from '../../assets/images/banner/banner-img7.webp';
-import BannerImg2 from '../../assets/images/banner/banner-img8.webp';
+// External banner images for home9 slider
+const BannerImg1 = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2315&q=80';
+const BannerImg2 = 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
 import { Col, Row } from 'react-bootstrap';
 
 function Slider() {

@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import AboutBg5 from '../assets/images/about/05.webp';
+// External image for completed projects section
+const AboutBg5 = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80';
 import { Link } from 'react-router-dom';
 
 function CompletedProjects(props) {

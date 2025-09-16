@@ -19,7 +19,8 @@ import Button from '../../component/button/button';
 
 // Site Data
 import { ClientLogoList2 } from '../../data/client-logo-list';
-import BannerImg1 from '../../assets/images/banner/banner-img6.webp';
+// External banner image for Home4
+const BannerImg1 = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80';
 
 // SCSS
 

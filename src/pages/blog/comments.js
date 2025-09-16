@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 
 // Site Data
-import authorImage1 from '../../assets/images/avatar/01.webp';
-import authorImage2 from '../../assets/images/avatar/02.webp';
-import authorImage3 from '../../assets/images/avatar/03.webp';
-import authorImage4 from '../../assets/images/avatar/04.webp';
-import authorImage5 from '../../assets/images/avatar/05.webp';
+// External comment author images from Unsplash
+const authorImage1 = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=80&q=80';
+const authorImage2 = 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&w=80&q=80';
+const authorImage3 = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&w=80&q=80';
+const authorImage4 = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&w=80&q=80';
+const authorImage5 = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&w=80&q=80';
 
 // SCSS
 import './comments.scss';

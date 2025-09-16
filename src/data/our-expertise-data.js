@@ -1,11 +1,12 @@
-import ExpertiseImg1 from '../assets/images/svg/microsoft-net.svg';
-import ExpertiseImg2 from '../assets/images/svg/javascript.svg';
-import ExpertiseImg3 from '../assets/images/svg/microsoft-sql-server.svg';
-import ExpertiseImg4 from '../assets/images/svg/python.svg';
-import ExpertiseImg5 from '../assets/images/svg/php.svg';
-import ExpertiseImg6 from '../assets/images/svg/ruby.svg';
-import ExpertiseImg7 from '../assets/images/svg/android.svg';
-import ExpertiseImg8 from '../assets/images/svg/java.svg';
+// External technology icon images (using simple placeholders)
+const ExpertiseImg1 = 'https://via.placeholder.com/60x60/007acc/ffffff?text=.NET';
+const ExpertiseImg2 = 'https://via.placeholder.com/60x60/f7df1e/333333?text=JS';
+const ExpertiseImg3 = 'https://via.placeholder.com/60x60/cc2927/ffffff?text=SQL';
+const ExpertiseImg4 = 'https://via.placeholder.com/60x60/3776ab/ffffff?text=PY';
+const ExpertiseImg5 = 'https://via.placeholder.com/60x60/777bb4/ffffff?text=PHP';
+const ExpertiseImg6 = 'https://via.placeholder.com/60x60/cc342d/ffffff?text=RB';
+const ExpertiseImg7 = 'https://via.placeholder.com/60x60/3ddc84/ffffff?text=AND';
+const ExpertiseImg8 = 'https://via.placeholder.com/60x60/f89820/ffffff?text=JAVA';
 
 const OurExpertiseList = [
   {

@@ -1,13 +1,14 @@
-import authorImg1 from '../assets/images/avatar/01.webp';
-import authorImg2 from '../assets/images/avatar/02.webp';
-import authorImg3 from '../assets/images/avatar/03.webp';
-import authorImg4 from '../assets/images/avatar/04.webp';
-import authorImg5 from '../assets/images/avatar/05.webp';
-import authorImg6 from '../assets/images/avatar/06.webp';
-import authorImg7 from '../assets/images/avatar/07.webp';
-import authorImg8 from '../assets/images/avatar/08.webp';
-import authorImg9 from '../assets/images/avatar/09.webp';
-import authorImg10 from '../assets/images/avatar/10.webp';
+// External testimonial author images from Unsplash
+const authorImg1 = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg2 = 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg3 = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg4 = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg5 = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg6 = 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg7 = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg8 = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg9 = 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&w=150&q=80';
+const authorImg10 = 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&w=150&q=80';
 
 const TestimonialList = [
   {

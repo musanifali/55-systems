@@ -22,7 +22,8 @@ import ClientLogo from '../../component/client-logo';
 import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 
 // Site Data
-import videoImg from '../../assets/images/blog/blog-img1.webp';
+// External video thumbnail image
+const videoImg = 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80';
 import FeatureStepList from '../../data/feature-step-list';
 import { AwardLogoList } from '../../data/client-logo-list';
 

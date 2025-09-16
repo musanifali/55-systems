@@ -16,7 +16,8 @@ import VideoPopup, { VideoPopup2 } from '../../component/video';
 // Site Data
 import CatData, { CatData3 } from '../../data/category-box-list2';
 import BlogList from '../../data/blog-list';
-import sectionBG from '../../assets/images/bg/01.webp';
+// External section background for home5
+const sectionBG = 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2301&q=80';
 
 // Page Section
 import AverageBox from './average-box';

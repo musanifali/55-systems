@@ -6,7 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-bg.webp';
+// External default page header image
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2301&q=80';
 
 // SCSS
 import './page-header.scss';

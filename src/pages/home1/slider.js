@@ -11,8 +11,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Site Data
-import BannerImg1 from '../../assets/images/banner/banner-img1.webp';
-import BannerImg2 from '../../assets/images/banner/banner-img2.webp';
+// External banner images for home1 slider
+const BannerImg1 = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80';
+const BannerImg2 = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
 
 function Slider() {
   return (

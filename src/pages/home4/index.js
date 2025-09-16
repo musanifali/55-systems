@@ -23,7 +23,8 @@ import OurExpertise from '../../component/our-expertise/our-expertise';
 
 // Site Data
 import TestimonialList from '../../data/testimonial-list';
-import videoImg from '../../assets/images/blog/blog-img1.webp';
+// External video thumbnail image for home4
+const videoImg = 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80';
 
 // Page Section
 import Banner from './banner';

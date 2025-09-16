@@ -3,7 +3,8 @@ import Col from 'react-bootstrap/Col';
 import SectionTitle from '../component/section-title/section-title';
 import Logo from '../component/logo';
 import GetInTouch from '../form/get-touch-form';
-import mapBG from '../../src/assets/images/bg/map-bg.webp';
+// External background image for contact form
+const mapBG = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
 import { Link } from 'react-router-dom';
 
 function ContactFormInfo() {

@@ -1,26 +1,26 @@
-// Image Gallery List 1
-import gallery1Img1 from '../assets/images/case-study/case-study-img1.webp';
-import gallery1Img2 from '../assets/images/case-study/case-study-img2.webp';
-import gallery1Img3 from '../assets/images/case-study/case-study-img3.webp';
-import gallery1Img4 from '../assets/images/case-study/case-study-img4.webp';
-import gallery1Img5 from '../assets/images/case-study/case-study-img5.webp';
-import gallery1Img6 from '../assets/images/case-study/case-study-img6.webp';
-import gallery1Img7 from '../assets/images/case-study/case-study-img7.webp';
-import gallery1Img8 from '../assets/images/case-study/case-study-img8.webp';
-import gallery1Img9 from '../assets/images/case-study/case-study-img9.webp';
-import gallery1Img10 from '../assets/images/case-study/case-study-img10.webp';
-import gallery1Img11 from '../assets/images/case-study/case-study-img11.webp';
-import gallery1Img12 from '../assets/images/case-study/case-study-img12.webp';
+// Image Gallery List 1 - External case study images
+const gallery1Img1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img1.dd8085fc405c33da00ff.webp';
+const gallery1Img2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img2.c86f9760ecde2c54ece1.webp';
+const gallery1Img3 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img3.6733a1b26781d329ffa9.webp';
+const gallery1Img4 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img4.7885f2eabef35458b378.webp';
+const gallery1Img5 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img5.6733a1b26781d329ffa9.webp';
+const gallery1Img6 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img6.7885f2eabef35458b378.webp';
+const gallery1Img7 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img7.dd8085fc405c33da00ff.webp';
+const gallery1Img8 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img8.c86f9760ecde2c54ece1.webp';
+const gallery1Img9 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img9.6733a1b26781d329ffa9.webp';
+const gallery1Img10 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img10.7885f2eabef35458b378.webp';
+const gallery1Img11 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img11.dd8085fc405c33da00ff.webp';
+const gallery1Img12 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/case-study-img12.c86f9760ecde2c54ece1.webp';
 
-// Image Gallery List 2
-import gallery2Img1 from '../assets/images/gallery/01.webp';
-import gallery2Img2 from '../assets/images/gallery/02.webp';
-import gallery2Img3 from '../assets/images/gallery/03.webp';
-import gallery2Img4 from '../assets/images/gallery/04.webp';
-import gallery2Img5 from '../assets/images/gallery/05.webp';
-import gallery2Img6 from '../assets/images/gallery/06.webp';
-import gallery2Img7 from '../assets/images/gallery/07.webp';
-import gallery2Img8 from '../assets/images/gallery/08.webp';
+// External gallery images
+const gallery2Img1 = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2315&q=80';
+const gallery2Img2 = 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+const gallery2Img3 = 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80';
+const gallery2Img4 = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+const gallery2Img5 = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80';
+const gallery2Img6 = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80';
+const gallery2Img7 = 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+const gallery2Img8 = 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2344&q=80';
 
 const ImageGalleryList = [
   {

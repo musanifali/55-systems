@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import SectionTitle from '../component/section-title/section-title';
 import { CategoryIcon02 } from '../component/category-icon';
 
-import DigitalCreativeImg from '../assets/images/about/06.webp';
+// External image for digital creative section
+const DigitalCreativeImg = 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
 import Button from '../component/button/button';
 
 const NumberList = [

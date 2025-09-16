@@ -11,8 +11,9 @@ import 'swiper/css/pagination';
 import ClientLogo from '../../component/client-logo';
 import { ClientLogoList2 } from '../../data/client-logo-list';
 
-import AwardIMG from '../../assets/images/svg/award.svg';
-import SectionBG from '../../assets/images/gallery/07.webp';
+// External images for history section
+const AwardIMG = 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+const SectionBG = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80';
 
 import BgVideo from '../../assets/video/video.mp4';
 

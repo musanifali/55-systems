@@ -36,7 +36,8 @@ function MainMenu() {
           <NavLink to="/">Home</NavLink>
         </li>
 
-        {/* Pages */}
+        {/* Pages - Commented Out */}
+        {/*
         <li
           key="1"
           className={`has-dropdown ${
@@ -84,6 +85,7 @@ function MainMenu() {
             </li>
           </ul>
         </li>
+        */}
 
         {/* Company */}
         <li
@@ -133,35 +135,9 @@ function MainMenu() {
           </ul>
         </li>
 
-        {/* Industries */}
-        <li
-          key="3"
-          className={`has-dropdown ${
-            activeItems.includes(3) ? 'menu-active' : ''
-          }`}
-        >
-          <Link to="#">
-            Industries{' '}
-            {showLink && (
-              <span onClick={() => toggleItem(3)} className="submenu-trigger">
-                <i className="fa-solid fa-angle-down"></i>
-              </span>
-            )}
-          </Link>
-          <ul className="submenu">
-            <li key="ind-1">
-              <NavLink to="/industries">Industries 01</NavLink>
-            </li>
-            <li key="ind-2">
-              <NavLink to="/industries-2">Industries 02</NavLink>
-            </li>
-            <li key="ind-3">
-              <NavLink to="/industries-3">Industries 03</NavLink>
-            </li>
-            <li key="ind-4">
-              <NavLink to="/industries-4">Industries 04</NavLink>
-            </li>
-          </ul>
+        {/* Industries - Direct link to Industries 4 */}
+        <li key="3">
+          <NavLink to="/industries-4">Industries</NavLink>
         </li>
 
         {/* Case Studies */}
@@ -189,7 +165,8 @@ function MainMenu() {
           </ul>
         </li>
 
-        {/* Elements */}
+        {/* Elements - Commented Out */}
+        {/*
         <li
           key="5"
           className={`megamenu ${activeItems.includes(5) ? 'menu-active' : ''}`}
@@ -283,6 +260,7 @@ function MainMenu() {
             </ul>
           </div>
         </li>
+        */}
       </ul>
     </>
   );
