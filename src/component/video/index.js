@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Ratio from 'react-bootstrap/Ratio';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import './video.scss';
+
 // External default video image
 const defaultImage = 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80';
-import './video.scss';
 
 function VideoPopup(props) {
   const [show, setShow] = useState(false);
