@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PageHeader from '../layouts/page-header/PageHeader';
-import PagaHeaderImg from '../assets/images/page-header/page-header-blog.webp';
+// External blog header image
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 import SectionTitle from '../component/section-title/section-title';
 import BlogList from '../data/blog-list';
 import BlogItem from '../component/blog';

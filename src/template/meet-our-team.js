@@ -1,7 +1,8 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from '../component/button/button';
-import aboutImage from '../../src/assets/images/about/02.webp';
+// External about image
+const aboutImage = 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
 
 import TeamList from '../data/team-list';
 import TeamStyle1 from '../component/team/team-item';

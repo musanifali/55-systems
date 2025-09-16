@@ -1,6 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 
-import SectionBG from '../../assets/images/bg/10.webp';
+// External background image
+const SectionBG = 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 
 function Banner() {
   return (

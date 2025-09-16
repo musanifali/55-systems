@@ -1,6 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import aboutImage from '../../src/assets/images/about/01.webp';
+// External about image
+const aboutImage = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
 import { InfoBox3 } from '../component/infobox';
 
 function Missionvision() {

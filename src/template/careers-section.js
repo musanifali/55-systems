@@ -1,5 +1,6 @@
-import aboutImage1 from '../../src/assets/images/about/08.webp';
-import aboutImage2 from '../../src/assets/images/about/09.webp';
+// External career images
+const aboutImage1 = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
+const aboutImage2 = 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
 import Counter from '../component/counter/counter';
 import List from '../component/list';
 

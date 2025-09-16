@@ -7,9 +7,10 @@ import Col from 'react-bootstrap/Col';
 import FeatureInfo from '../../component/feature-info';
 
 // Site Data
-import aboutImage1 from '../../assets/images/about/01.webp';
-import aboutImage2 from '../../assets/images/about/02.webp';
-import aboutImage3 from '../../assets/images/about/03.webp';
+// External about images
+const aboutImage1 = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
+const aboutImage2 = 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
+const aboutImage3 = 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
 
 function FeatureInfoSection() {
   return (

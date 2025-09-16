@@ -29,12 +29,14 @@ import CategoryGridList from '../../template/category-grid';
 import ProjectTimeline from './project-timeline';
 
 // Site Data
-import image1 from '../../assets/images/about/12.webp';
-import image2 from '../../assets/images/about/13.webp';
+// External industry images
+const image1 = 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
+const image2 = 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80';
 import { CatData2 } from '../../data/category-box-list2';
 import TestimonialList from '../../data/testimonial-list';
 import CaseStudyList from '../../data/case-study-list';
-import PagaHeaderImg from '../../assets/images/page-header/industries-3.webp';
+// External page header image
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 
 function Industries3() {
   const listItems1 = [

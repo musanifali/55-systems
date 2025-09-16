@@ -1,5 +1,6 @@
-import servicesimg3 from '../assets/images/services/services-img3.webp';
-import servicesimg5 from '../assets/images/services/services-img5.webp';
+// External service images  
+const servicesimg3 = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
+const servicesimg5 = 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
 
 const servicesimg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
 const servicesimg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img2.434fa424abdbbd0c4e59.webp';

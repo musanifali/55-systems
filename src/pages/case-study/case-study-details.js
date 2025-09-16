@@ -12,10 +12,12 @@ import ActionBox from '../../component/action-box';
 import CaseStudyStyle1 from '../../component/case-study';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-services.webp';
+// External page header image
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 import CaseStudyList from '../../data/case-study-list';
-import OverviewImage from '../../assets/images/bg/01.webp';
-import ChallengeImage from '../../assets/images/bg/02.webp';
+// External case study section images
+const OverviewImage = 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
+const ChallengeImage = 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
 
 function CaseStudySingle() {
   let { id } = useParams();

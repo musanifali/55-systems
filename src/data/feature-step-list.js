@@ -1,7 +1,8 @@
-import featureStepImg3 from '../assets/images/services/services-img3.webp';
-import featureStepImg5 from '../assets/images/services/services-img5.webp';
-import featureStepImg7 from '../assets/images/services/services-img4.webp';
-import featureStepImg8 from '../assets/images/services/services-img2.webp';
+// External feature step images
+const featureStepImg3 = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
+const featureStepImg5 = 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
+const featureStepImg7 = 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
+const featureStepImg8 = 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';
 
 const featureStepImg1 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img1.acd449d549a2cd50d8e0.webp';
 const featureStepImg2 = 'https://themes.potenzaglobalsolutions.com/react/hi-soft/static/media/services-img2.434fa424abdbbd0c4e59.webp';

@@ -29,7 +29,8 @@ import CategoryGridList from '../../template/category-grid';
 import { CatData2 } from '../../data/category-box-list2';
 import TestimonialList from '../../data/testimonial-list';
 import CaseStudyList from '../../data/case-study-list';
-import PagaHeaderImg from '../../assets/images/page-header/industries-1.webp';
+// External page header image
+const PagaHeaderImg = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 
 function Industries() {
   const listItems1 = [

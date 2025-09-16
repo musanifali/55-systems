@@ -31,7 +31,8 @@ import ImageGalleryList from '../../data/image-gallery';
 import FeatureStepList from '../../data/feature-step-list';
 import TestimonialList from '../../data/testimonial-list';
 import BlogList from '../../data/blog-list';
-import sectionBG from '../../assets/images/bg/01.webp';
+// External background image
+const sectionBG = 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80';
 
 // Page Section
 import Banner from './banner';

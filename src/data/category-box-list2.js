@@ -1,23 +1,25 @@
-import categoryImg1 from '../assets/images/svg/icon/001-refresh.svg';
-import categoryImg2 from '../assets/images/svg/icon/060-pencil.svg';
-import categoryImg3 from '../assets/images/svg/icon/093-letter.svg';
-import categoryImg4 from '../assets/images/svg/icon/124-screen.svg';
-import categoryImg5 from '../assets/images/svg/icon/122-truck.svg';
-import categoryImg6 from '../assets/images/svg/icon/150-truck.svg';
-import categoryImg7 from '../assets/images/svg/icon/097-scan.svg';
-import categoryImg8 from '../assets/images/svg/icon/073-alarm.svg';
-import categoryImg9 from '../assets/images/svg/icon/081-headset.svg';
-import categoryImg10 from '../assets/images/svg/icon/010-page.svg';
-import categoryImg11 from '../assets/images/svg/icon/074-message.svg';
-import categoryImg12 from '../assets/images/svg/icon/079-avatar.svg';
-import categoryImg13 from '../assets/images/svg/icon/050-sound.svg';
-import categoryImg14 from '../assets/images/svg/icon/136-email.svg';
-import categoryImg15 from '../assets/images/svg/icon/002-certification.svg';
+// External category icon images (using icon placeholders)
+const categoryImg1 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🔄';
+const categoryImg2 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=✏️';
+const categoryImg3 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=✉️';
+const categoryImg4 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=💻';
+const categoryImg5 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🚚';
+const categoryImg6 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🚛';
+const categoryImg7 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=📱';
+const categoryImg8 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=⏰';
+const categoryImg9 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🎧';
+const categoryImg10 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=📄';
+const categoryImg11 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=💬';
+const categoryImg12 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=👤';
+const categoryImg13 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🔊';
+const categoryImg14 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=📧';
+const categoryImg15 = 'https://via.placeholder.com/64x64/007bff/ffffff?text=🏆';
 
-import IconImg1 from '../assets/images/svg/service01.svg';
-import IconImg2 from '../assets/images/svg/service02.svg';
-import IconImg3 from '../assets/images/svg/service03.svg';
-import IconImg4 from '../assets/images/svg/service04.svg';
+// External service icon images
+const IconImg1 = 'https://via.placeholder.com/80x80/28a745/ffffff?text=S1';
+const IconImg2 = 'https://via.placeholder.com/80x80/28a745/ffffff?text=S2';
+const IconImg3 = 'https://via.placeholder.com/80x80/28a745/ffffff?text=S3';
+const IconImg4 = 'https://via.placeholder.com/80x80/28a745/ffffff?text=S4';
 
 const CatData = [
   {
