@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "name": "55-systems",
-  "buildCommand": "npm run build",
-  "outputDirectory": "build",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "app/api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
