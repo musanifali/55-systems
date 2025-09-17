@@ -4,11 +4,18 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Pagination, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 // Components
 import PageHeader from '../../layouts/page-header/PageHeader';
 import TeamSection from '../../template/team-section';
-import CaseStudyStyle1 from '../../component/case-study';
+import SectionTitle from '../../component/section-title/section-title';
+import { CaseStudyStyle2 } from '../../component/case-study';
 import ActionBox from '../../component/action-box';
 
 // Site Data
@@ -39,27 +46,49 @@ function CaseStudy(props) {
           <Container>
             <Row>
               <Col>
-                <div className="section-title text-center mb-5">
-                  <h2 className="title">
-                    <span>What's next?</span>our latest client stories
-                  </h2>
-                  <p>We love what we do. Our clients tell us the same thing.</p>
-                </div>
-                <div className="grid-wrapper grid-lg-3 grid-md-2 grid-sm-1 grid-xs-1">
-                  {CaseStudyList.map((val) => {
+                <SectionTitle
+                  title={[
+                    <span key="what">What's next?</span>,
+                    ' our latest client stories',
+                  ]}
+                  content="We love what we do. Our clients tell us the same thing."
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Swiper
+                  modules={[Pagination, A11y]}
+                  spaceBetween={30}
+                  slidesPerView={3}
+                  pagination={{ clickable: true }}
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1, // This is 574 to 0 View
+                    },
+                    575: {
+                      slidesPerView: 2, // This is 767 to 575 View
+                    },
+                    768: {
+                      slidesPerView: 3, // This is 992 to 768 View
+                    },
+                  }}
+                >
+                  {CaseStudyList.map((val, ind) => {
                     return (
-                      <CaseStudyStyle1
-                        key={val.id}
-                        extraClass="masonry"
-                        id={val.id}
-                        image={val.imgsrc}
-                        title={val.title}
-                        category={val.category}
-                        description={val.description}
-                      />
+                      <SwiperSlide key={ind}>
+                        <CaseStudyStyle2
+                          key={ind}
+                          id={val.id}
+                          image={val.imgsrc}
+                          title={val.title}
+                          category={val.category}
+                          description={val.description}
+                        />
+                      </SwiperSlide>
                     );
                   })}
-                </div>
+                </Swiper>
               </Col>
             </Row>
           </Container>

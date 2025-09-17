@@ -115,11 +115,13 @@ function MainMenu() {
             <li key="com-4">
               <NavLink to="/team">Team</NavLink>
             </li>
+            {/* Commented out - not needed at the moment
             <li key="com-5">
               <NavLink to="/team-details/1">
                 Team Single <label className="label-badge">New</label>
               </NavLink>
             </li>
+            */}
             <li key="com-6">
               <NavLink to="/mission-vision">Mission Vision</NavLink>
             </li>
@@ -129,9 +131,11 @@ function MainMenu() {
             <li key="com-8">
               <NavLink to="/service">Service</NavLink>
             </li>
+            {/* Commented out - not needed at the moment
             <li key="com-9">
               <NavLink to="/service-details/1">Service Single</NavLink>
             </li>
+            */}
           </ul>
         </li>
 
@@ -166,30 +170,16 @@ function MainMenu() {
           </ul>
         </li>
 
-        {/* Case Studies */}
-        <li
-          key="4"
-          className={`has-dropdown ${
-            activeItems.includes(4) ? 'menu-active' : ''
-          }`}
-        >
-          <Link to="#">
-            Case Studies{' '}
-            {showLink && (
-              <span onClick={() => toggleItem(4)} className="submenu-trigger">
-                <i className="fa-solid fa-angle-down"></i>
-              </span>
-            )}
-          </Link>
-          <ul className="submenu">
-            <li key="cas-1">
-              <NavLink to="/case-study">Case Studies</NavLink>
-            </li>
-            <li key="cas-2">
-              <NavLink to="/case-study-details/1">Case Studies Single</NavLink>
-            </li>
-          </ul>
+        {/* Case Studies - Direct Link (no dropdown) */}
+        <li key="4">
+          <NavLink to="/case-study">Case Studies</NavLink>
         </li>
+
+        {/* Case Studies Single - Commented out for now
+        <li key="cas-2">
+          <NavLink to="/case-study-details/1">Case Studies Single</NavLink>
+        </li>
+        */}
 
         {/* Elements - Commented Out */}
         {/*
