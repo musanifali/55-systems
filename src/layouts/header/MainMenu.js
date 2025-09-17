@@ -135,9 +135,35 @@ function MainMenu() {
           </ul>
         </li>
 
-        {/* Industries - Direct link to Industries 4 */}
-        <li key="3">
-          <NavLink to="/industries-4">Industries</NavLink>
+        {/* Industries - Dropdown restored */}
+        <li
+          key="3"
+          className={`has-dropdown ${
+            activeItems.includes(3) ? 'menu-active' : ''
+          }`}
+        >
+          <Link to="#">
+            Industries{' '}
+            {showLink && (
+              <span onClick={() => toggleItem(3)} className="submenu-trigger">
+                <i className="fa-solid fa-angle-down"></i>
+              </span>
+            )}
+          </Link>
+          <ul className="submenu">
+            <li key="ind-1">
+              <NavLink to="/industries">Healthcare</NavLink>
+            </li>
+            <li key="ind-2">
+              <NavLink to="/industries-2">Automotive</NavLink>
+            </li>
+            <li key="ind-3">
+              <NavLink to="/industries-3">Construction</NavLink>
+            </li>
+            <li key="ind-4">
+              <NavLink to="/industries-4">Financial</NavLink>
+            </li>
+          </ul>
         </li>
 
         {/* Case Studies */}
